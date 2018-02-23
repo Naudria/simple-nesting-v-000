@@ -84,8 +84,8 @@ def adding_matz
         }
      }
 
-		 p matsumoto = {yukihiro_matsumoto: {known_for: {languages: ["LISP", "C"]}}}
-
+		 matsumoto = {yukihiro_matsumoto: {known_for: {languages: ["LISP", "C"]}}}
+		 p programmer_hash.merge(matsumoto)
 
 end
 
